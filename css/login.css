@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://www.ionos.co.uk/digitalguide/fileadmin/_processed_/4/a/csm_cloud-speicher-dienste-t_8adf7bb9bc.jpg") center center/ cover;
+}
+
+.login-panel {
+    width: 320px;
+    /* background: #fff; */
+}
+
+.logo {
+    width: 64px;
+}
+
+.floating-top .form-control {
+    border-radius: .375rem .375rem 0 0;
+}
+
+.floating-top .form-control:focus {
+    position: relative;
+    z-index: 1;
+}
+
+.form-floating>label {
+    z-index: 2;
+}
+
+.floating-bottom .form-control {
+    border-top: none;
+    border-radius: 0 0 .375rem .375rem;
+}
